@@ -1,0 +1,1658 @@
+﻿[Dictionary]
+Version=CSPro 6.2
+Label=VST5 - DVM Mapping
+Name=VST5_DVM_MAPPING_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=VST5 - DVM Mapping questionnaire
+Name=VST5_DVM_MAPPING_QUEST
+
+[IdItems]
+
+[Item]
+Label=Region Code
+Name=REGION_CODE
+Start=2
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Region Code
+Name=REGION_CODE_VS1
+Value=1;Iringa
+Value=2;Mbeya
+Value=3;Morogoro
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=District Code
+Name=DISTRICT_CODE
+Start=3
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=District Code
+Name=DISTRICT_CODE_VS1
+Value=11;Iringa
+Value=12;Mufindi
+Value=21;Chunya
+Value=22;Mbozi
+Value=23;Waging’ombe
+Value=31;Gairo
+Value=32;Ulanga
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Ward Code
+Name=WARD_CODE
+Start=5
+Len=4
+ZeroFill=Yes
+
+[ValueSet]
+Label=Ward Code
+Name=WARD_CODE_VS1
+Value=1101;Idodi
+Value=1102;Ifunda
+Value=1103;Ilolompya
+Value=1104;Itunundu
+Value=1105;Izazi
+Value=1106;Kalenga
+Value=1107;Kihanga
+Value=1108;Kihorogota
+Value=1109;Kiwere
+Value=1110;Luhota
+Value=1111;Lumuli
+Value=1112;Lyamgungwe
+Value=1113;Maboga
+Value=1114;Magulilwa
+Value=1115;Mahuninga
+Value=1116;Malengamakali
+Value=1117;Masaka
+Value=1118;Mboliboli
+Value=1119;Mgama
+Value=1120;Migoli
+Value=1121;Mlenge
+Value=1122;Mlowa
+Value=1123;Mseke
+Value=1124;Nduli / Kising'a
+Value=1125;Nyang'olo
+Value=1126;Nzihi
+Value=1127;Ulanda
+Value=1128;Wasa
+Value=1201;Bumilayinga
+Value=1202;Idete
+Value=1203;Idunda
+Value=1204;Ifwagi
+Value=1205;Igombavanu
+Value=1206;Igowole
+Value=1207;Ihalimba
+Value=1208;Ihanu
+Value=1209;Ihowanza
+Value=1210;Ikweha
+Value=1211;Isalavanu
+Value=1212;Itandula
+Value=1213;Kasanga
+Value=1214;Kibengu
+Value=1215;Kiyowela
+Value=1216;Luhunga
+Value=1217;Maduma
+Value=1218;Mafinga
+Value=1219;Makungu
+Value=1220;Malangali
+Value=1221;Mapanda
+Value=1222;Mbalamaziwa
+Value=1223;Mdabulo
+Value=1224;Mninga
+Value=1225;Mpanga TAZARA
+Value=1226;Mtambula
+Value=1227;Mtwango
+Value=1228;Nyololo
+Value=1229;Rungemba
+Value=1230;Sadani
+Value=1231;Ikongosi
+Value=1232;Sao Hill
+Value=1233;Boma
+Value=1234;Wambi
+Value=1235;Upendo
+Value=1236;Kinyanambo
+Value=1237;Changarawe
+Value=2101;Chalangwa
+Value=2102;Chokaa
+Value=2103;Galula
+Value=2104;Gua
+Value=2105;Ifumbo
+Value=2106;Itewe
+Value=2107;Kambikatoto
+Value=2108;Kanga
+Value=2109;Kapalala
+Value=2110;Lupa
+Value=2111;Lualaje
+Value=2112;Mafyeko
+Value=2113;Makongolosi
+Value=2114;Mamba
+Value=2115;Matwiga
+Value=2116;Mbangala
+Value=2117;Mbugani
+Value=2118;Mbuyuni
+Value=2119;Mkwajuni
+Value=2120;Mtanila
+Value=2121;Namkukwe
+Value=2122;Ngwala
+Value=2123;Totowe
+Value=2124;Bwawani
+Value=2125;Chang'ombe
+Value=2126;Ifwenkenya
+Value=2127;Magamba
+Value=2128;Manda
+Value=2129;Matundasi
+Value=2130;Mkola
+Value=2131;Mwambani
+Value=2132;Sangambi
+Value=2133;Saza
+Value=2134;Upendo
+Value=2201;Bara
+Value=2202;Halungu
+Value=2203;Igamba
+Value=2204;Ihanda
+Value=2205;Ipunga
+Value=2206;Isandula
+Value=2208;Isansa
+Value=2209;Itaka
+Value=2210;Iyula
+Value=2211;Mlangali
+Value=2212;Mlowo
+Value=2213;Msia
+Value=2214;Myovizi
+Value=2215;Nambinzo
+Value=2216;Nanyala
+Value=2217;Nyimbili
+Value=2218;Ruanda (Mbozi)
+Value=2219;Vwawa
+Value=2301;Igima
+Value=2302;Igosi
+Value=2303;Igwachanya
+Value=2304;Ilembula
+Value=2305;Imalinyi
+Value=2306;Itulahumba
+Value=2307;Kidugala
+Value=2308;Kijombe
+Value=2309;Kipengele
+Value=2310;Luduga
+Value=2311;Makoga
+Value=2312;Malangali
+Value=2313;Mdandu
+Value=2314;Saja
+Value=2315;Udonja
+Value=2316;Uhambule
+Value=2317;Uhenga
+Value=2318;Ulembwe
+Value=2319;Usuka
+Value=2320;Waging’ombe
+Value=2321;Wangama
+Value=3101;Chagongwe
+Value=3102;Chakwale
+Value=3103;Chanjale
+Value=3104;Chigela
+Value=3105;Gairo
+Value=3106;Idibo
+Value=3107;Italagwe
+Value=3108;Iyogwe
+Value=3109;Kibedya
+Value=3110;Leshata
+Value=3111;Madege
+Value=3112;Magoweko
+Value=3113;Mandege
+Value=3114;Mkalama
+Value=3115;Msingisi
+Value=3116;Nongwe
+Value=3117;Rubeho
+Value=3118;Ukwamani
+Value=3201;Biro
+Value=3202;Chirombola
+Value=3203;Euga
+Value=3204;Igawa
+Value=3205;Ilonga
+Value=3206;Iragua
+Value=3207;Isongo
+Value=3208;Itete
+Value=3209;Ketaketa
+Value=3210;Kichangani
+Value=3211;Kilosa kwa Mpepo
+Value=3212;Lukande
+Value=3213;Lupiro
+Value=3214;Mahenge
+Value=3215;Malinyi
+Value=3216;Mawasiliano
+Value=3217;Mbuga
+Value=3218;Milola
+Value=3219;Minepa
+Value=3220;Msogezi
+Value=3221;Mtimbira
+Value=3222;Mwaya
+Value=3223;Epanko
+Value=3224;Ngoheranga
+Value=3225;Njiwa
+Value=3226;Ruaha
+Value=3227;Sali
+Value=3228;Sofi
+Value=3229;Uponera
+Value=3230;Usangule
+Value=3231;Vigoi
+Value=3232;Kivukoni
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Village Code
+Name=VILLAGE_CODE
+Start=9
+Len=7
+DataType=Alpha
+
+[ValueSet]
+Label=Village Code
+Name=VILLAGE_CODE_VS1
+Value='1101-01';Idodi
+Value='1101-02';Kitisi
+Value='1101-03';Mapogoro
+Value='1101-04';Tungamalenga
+Value='1102-01';Bandabichi
+Value='1102-02';Ifunda
+Value='1102-03';Kibena
+Value='1102-04';Mfukulembe
+Value='1102-05';Mibikimitali
+Value='1102-06';Udumka
+Value='1103-01';Ilolompya
+Value='1103-02';Luganga
+Value='1103-03';Magozi
+Value='1103-04';Mkombilenga
+Value='1104-01';Itunundu
+Value='1104-02';Kimande
+Value='1104-03';Mbuyuni
+Value='1105-01';Izazi
+Value='1105-02';Makuka
+Value='1105-03';Mnadani
+Value='1106-01';Isakalilo
+Value='1106-02';Kalenga
+Value='1106-03';Tosamaganga
+Value='1107-01';Chamgogo
+Value='1107-02';Igangidung’u
+Value='1107-03';Kidilo
+Value='1107-04';Kihanga
+Value='1107-05';Makombe
+Value='1108-01';Igula
+Value='1108-02';Ismani Tarafani
+Value='1108-03';Kihorogota
+Value='1108-04';Ivangwa
+Value='1108-05';Mikongwi
+Value='1108-06';Ndolela
+Value='1108-07';Ngano
+Value='1108-08';Uhominyi
+Value='1109-01';Itagutwa
+Value='1109-02';Kitapilimwa
+Value='1109-03';Kiwere
+Value='1109-04';Mfyome
+Value='1109-05';Mgera
+Value='1110-01';Ikuvilo
+Value='1110-02';Kitayawa
+Value='1110-03';Nyabula
+Value='1110-04';Tagamenda
+Value='1110-05';Wangama
+Value='1111-01';Isupilo
+Value='1111-02';Itengulinyi
+Value='1111-03';Lumuli
+Value='1111-04';Muwimbi
+Value='1112-01';Igunda
+Value='1112-02';Kikombwe
+Value='1112-03';Lupelwasenga
+Value='1112-04';Lyamgungwe
+Value='1112-05';Malagosi
+Value='1113-01';Kiponzelo
+Value='1113-02';Maboga
+Value='1113-03';Magunga
+Value='1113-04';Makongati
+Value='1114-01';Magulilwa
+Value='1114-02';Mlanda
+Value='1114-03';Msuluti
+Value='1114-04';Ndiwili
+Value='1114-05';Negabihi
+Value='1114-06';Ng’enza
+Value='1115-01';Kisilwa
+Value='1115-02';Mahuninga
+Value='1115-03';Makifu
+Value='1116-01';Iguluba
+Value='1116-02';Isaka
+Value='1116-03';Makadupa
+Value='1116-04';Mkulula
+Value='1116-05';Nyakavangala
+Value='1116-06';Usolanga
+Value='1117-01';Kaning’ombe
+Value='1117-02';Makota
+Value='1117-03';Sadani
+Value='1118-01';Mboliboli
+Value='1118-02';Mbugani
+Value='1118-03';Mkumbwanyi
+Value='1119-01';Ibumila
+Value='1119-02';Ihemi
+Value='1119-03';Ilandutwa
+Value='1119-04';Itwaga
+Value='1119-05';Lwato
+Value='1119-06';Mgama
+Value='1120-01';Kinyali
+Value='1120-02';Makatapola
+Value='1120-03';Maperamengi
+Value='1120-04';Mbweleli
+Value='1120-05';Migoli
+Value='1120-06';Mtera
+Value='1121-01';Isele
+Value='1121-02';Kinyika
+Value='1121-03';Kisanga
+Value='1121-04';Magombwe
+Value='1122-01';Mafuruto
+Value='1122-02';Malinzanga
+Value='1122-03';Nyamahana
+Value='1123-01';Mlandege
+Value='1123-02';Tanangozi
+Value='1123-03';Ugwachanya
+Value='1123-04';Wenda
+Value='1124-01';Igingilanyi
+Value='1124-02';Ilambilole
+Value='1124-03';Kinywang’anga
+Value='1124-04';Kising’a
+Value='1124-05';Matembo
+Value='1124-06';Mkungugu
+Value='1125-01';Chamdindi
+Value='1125-02';Holo
+Value='1125-03';Ikengeza
+Value='1125-04';Mangawe
+Value='1125-05';Mawindi
+Value='1125-06';Nyang’oro
+Value='1126-01';Ilalasimba
+Value='1126-02';Kidamali
+Value='1126-03';Kipera
+Value='1126-04';Magubike
+Value='1126-05';Nyamihuu
+Value='1126-06';Nzihi
+Value='1127-01';Ibangamoyo
+Value='1127-02';Kibebe
+Value='1127-03';Lupalama
+Value='1127-04';Mangalali
+Value='1127-05';Mwambao
+Value='1127-06';Weru
+Value='1128-01';Ihomasa
+Value='1128-02';Ikungwe
+Value='1128-03';Mahanzi
+Value='1128-04';Ufyambe
+Value='1128-05';Ulata
+Value='1128-06';Usengelindete
+Value='1128-07';Wasa
+Value='1201-01';Bumilayinga
+Value='1201-02';Kisada
+Value='1201-03';Matanana
+Value='1201-04';Ulole
+Value='1202-01';Holo
+Value='1202-02';Idete
+Value='1202-03';Itika
+Value='1203-01';Idumulavanu
+Value='1203-02';Ikangamwani
+Value='1203-03';Mkangwe
+Value='1204-01';Ifupira
+Value='1204-02';Ifwagi
+Value='1204-03';Itona
+Value='1204-04';Mwitikilwa
+Value='1205-01';Igombavanu
+Value='1205-02';Lugodalutali
+Value='1205-03';Makongomi
+Value='1205-04';Mapogoro
+Value='1205-05';Uhambila
+Value='1206-01';Ibatu
+Value='1206-02';Igowole
+Value='1206-03';Kisasa
+Value='1206-04';Nzivi
+Value='1207-01';Ihalimba
+Value='1207-02';Nundwe
+Value='1207-03';Ugesa
+Value='1207-04';Vikula
+Value='1207-05';Wamimbalwe
+Value='1208-01';Ibwanzi
+Value='1208-02';Ihanu
+Value='1208-03';Isipii
+Value='1208-04';Kilosa
+Value='1208-05';Lulanda
+Value='1208-06';Nandala
+Value='1209-01';Ihowanza
+Value='1209-02';Ipilimo
+Value='1209-03';Kiponda
+Value='1209-04';Kwatwanga
+Value='1210-01';Ikweha
+Value='1210-02';Ugenza
+Value='1210-03';Ukelemi
+Value='1210-04';Uyela
+Value='1211-01';Isalavanu
+Value='1211-02';Kikombo
+Value='1211-03';Maduma
+Value='1211-04';Ugute
+Value='1212-01';Ihawaga
+Value='1212-02';Ikimilinzowo
+Value='1212-03';Iramba
+Value='1212-04';Kinegembasi
+Value='1212-05';Nyigo
+Value='1213-01';Ihomasa
+Value='1213-02';Kasanga
+Value='1213-03';Kilolo
+Value='1213-04';Lwang'a
+Value='1213-05';Udumka
+Value='1214-01';Igeleke
+Value='1214-02';Igomtwa
+Value='1214-03';Ilogombe
+Value='1214-04';Kibengu
+Value='1214-05';Kipanga
+Value='1214-06';Usokami
+Value='1215-01';Isaula
+Value='1215-02';Kiyowela
+Value='1215-03';Magunguli
+Value='1216-01';Igoda
+Value='1216-02';Ikaning'ombe
+Value='1216-03';Iyegeya
+Value='1216-04';Luhunga
+Value='1216-05';Mkonge
+Value='1217-01';Ihanganatwa
+Value='1217-02';Maduma
+Value='1217-03';Wangamaganga
+Value='1218-01';Mafinga
+Value='1219-01';Kitasengwa
+Value='1219-02';Lugema
+Value='1219-03';Lugolofu
+Value='1219-04';Mabaoni
+Value='1219-05';Makungu
+Value='1220-01';Isimikinyi
+Value='1220-02';Itengule
+Value='1220-03';Kingege
+Value='1220-04';Mwilavila
+Value='1220-05';Tambalang'ombe
+Value='1221-01';Chogo
+Value='1221-02';Ihimbo
+Value='1221-03';Mapanda
+Value='1221-04';Uhafiwa
+Value='1221-05';Ukami
+Value='1222-01';Idetero
+Value='1222-02';Maguvani
+Value='1222-03';Mbalamaziwa
+Value='1222-04';Nyanyembe
+Value='1222-05';Ukemele
+Value='1223-01';Ikanga
+Value='1223-02';Ilasa
+Value='1223-03';Kidete
+Value='1223-04';Ludilo
+Value='1223-05';Mlevelwa
+Value='1224-01';Ikwega
+Value='1224-02';Itulituli
+Value='1224-03';Kihanga
+Value='1224-04';Mkalala
+Value='1224-05';Mninga
+Value='1225-01';Mpanga TAZARA
+Value='1226-01';Ihegela
+Value='1226-02';Ipilimo
+Value='1226-03';Mtambula
+Value='1226-04';Nyakipambo
+Value='1227-01';Kibao
+Value='1227-02';Kitiru
+Value='1227-03';Lufuna
+Value='1227-04';Mpanga
+Value='1227-05';Mtwango
+Value='1227-06';Sawala
+Value='1228-01';Lwing'ulo
+Value='1228-02';Njojo
+Value='1228-03';Nyololo (N)
+Value='1228-04';Nyololo (S)
+Value='1229-01';Itimbo
+Value='1229-02';Kitelewasi
+Value='1229-03';Rungemba
+Value='1230-01';Igomaa
+Value='1230-02';Ihanzutwa
+Value='1230-03';Kibada
+Value='1230-04';Tambalang'ombe
+Value='1230-05';Utosi
+Value='1231-01';Ikongosi
+Value='1231-02';Ikongosi juu
+Value='1231-03';Itulavanu
+Value='1231-04';Lugongo
+Value='1231-05';Mtili
+Value='1232-01';Ihefu
+Value='1232-02';Mkanzaule
+Value='1232-03';Mtula
+Value='1233-01';Ihongole
+Value='1233-02';Ivambinungu
+Value='1233-03';Malingumu
+Value='1233-04';Mjimwema
+Value='1233-05';Mkombwe
+Value='1233-06';Ndolezi
+Value='1234-01';Luganga
+Value='1234-02';Majengo Mapya
+Value='1234-03';Mifugo
+Value='1234-04';Mtangani
+Value='1234-05';Pipeline
+Value='1235-01';Amani
+Value='1235-02';Balali
+Value='1235-03';Gangilonga
+Value='1235-04';Mbagala
+Value='1235-05';Mgodi
+Value='1236-01';Ifingo
+Value='1236-02';Kinanambo
+Value='1236-03';Lumwago
+Value='1236-04';Mizani
+Value='1236-05';Tanganyika
+Value='1237-01'; Block J
+Value='1237-02';Igawa
+Value='1237-03';Lutalawe
+Value='1237-04';Makamadolesi (Chogo)
+Value='2101-01';Chalangwa
+Value='2101-02';Isewe
+Value='2101-03';Itumba
+Value='2102-01';Chokaa
+Value='2102-02';Godima
+Value='2102-03';Kibaoni
+Value='2102-04';Mapogoro
+Value='2103-01';Galula
+Value='2103-02';Ilasilo
+Value='2103-03';Itindi
+Value='2104-01';Gua
+Value='2104-02';Some
+Value='2105-01';Ifumbo
+Value='2105-02';Lupa Market
+Value='2106-01';Chunya Mjini
+Value='2106-02';Mawelu
+Value='2106-03';Sinjilili
+Value='2106-04';Soweto
+Value='2107-01';Kambikatoto
+Value='2107-02';Sipa
+Value='2108-01';Kanga
+Value='2108-02';Tete
+Value='2109-01';Kapalala
+Value='2109-02';Rukwa
+Value='2109-03';Udinde
+Value='2110-01';Ifuma
+Value='2110-02';Lupatingatinga
+Value='2110-03';Lyeselo
+Value='2110-04';Magunga
+Value='2110-05';Majengo
+Value='2110-06';Nkung’ungu
+Value='2111-01';Lualaje
+Value='2111-02';Mwiji
+Value='2112-01';Bitimanyanga
+Value='2112-02';Mafyeko
+Value='2113-01';Makongolosi
+Value='2114-01';Mamba
+Value='2114-02';Mapinduzi
+Value='2114-03';Mtande
+Value='2115-01';Isangawana
+Value='2115-02';Matwiga
+Value='2115-03';Mazimbo
+Value='2116-01';Maleza
+Value='2116-02';Mbangala
+Value='2117-01';Kiwanja
+Value='2117-02';Mbugani
+Value='2117-03';Mlimanjiwa
+Value='2118-01';Mbuyuni
+Value='2118-02';Mwagala
+Value='2118-03';Ndanga
+Value='2119-01';Chudeco
+Value='2119-02';Kaloleni
+Value='2119-03';Majengo
+Value='2119-04';Mkwajuni
+Value='2120-01';Igangwe
+Value='2120-02';Kalangali
+Value='2120-03';Mtanila
+Value='2121-01';Mheza
+Value='2121-02';Namkukwe
+Value='2122-01';Itiziro
+Value='2122-02';Ngwala
+Value='2123-01';Iyovyo
+Value='2123-02';Mpona
+Value='2123-03';Namambo
+Value='2123-04';Totowe
+Value='2124-01';Bwawani
+Value='2125-01';Chang'ombe
+Value='2125-02';Ifuko
+Value='2125-03';Wanzani
+Value='2126-01';Ifwenkenya
+Value='2126-02';IIeya
+Value='2127-01';Kambarage
+Value='2127-02';Magamba
+Value='2127-03';Nahalyongo
+Value='2127-04';Songambele
+Value='2128-01';Isanzu
+Value='2128-02';Manda
+Value='2129-01';Matundasi
+Value='2130-01';Mkola
+Value='2131-01';Iseche
+Value='2131-02';Mbala
+Value='2131-03';Mwambani
+Value='2132-01';Igundu
+Value='2132-02';Sangambi
+Value='2132-03';Shoga
+Value='2133-01';Patamela
+Value='2133-02';Saza
+Value='2134-01';Lola
+Value='2134-02';Nkwangu
+Value='2134-03';Upendo
+Value='2201-01';Bara
+Value='2201-02';Hang’omba
+Value='2201-03';Ikonya
+Value='2201-04';Iporoto
+Value='2201-05';Maninga
+Value='2201-06';Twinzi
+Value='2202-01';Halambo
+Value='2202-02';Halungu
+Value='2202-03';Hampangala
+Value='2202-04';Lwati
+Value='2202-05';Sasenga
+Value='2202-06';Shasya
+Value='2203-01';Hatelele
+Value='2203-02';Igamba
+Value='2203-03';Itepula
+Value='2203-04';Iwezi
+Value='2203-05';Mbozi Mission
+Value='2203-06';Msanyila
+Value='2203-07';Shiwinga
+Value='2203-08';Zelezeta
+Value='2204-01';Hanseketwa
+Value='2204-02';Ihanda
+Value='2204-03';Malonji
+Value='2204-04';Nanyunyi
+Value='2204-05';Sakamwela
+Value='2204-06';Shilanga
+Value='2204-07';Sumbalwela
+Value='2205-01'; Ipanzya
+Value='2205-02'; Mpela
+Value='2205-03';Ipapa
+Value='2205-04';Ipunga
+Value='2206-01';Chizumbi
+Value='2206-02';Ikomela
+Value='2206-03';Isandula
+Value='2206-04';Kilimampimbi
+Value='2206-05';Ludewa
+Value='2206-06';Mponela
+Value='2206-07';Ukwile
+Value='2208-01';Iganya
+Value='2208-02';Isansa
+Value='2208-03';Itumpi
+Value='2208-04';Iwalanje
+Value='2208-05';Iyenga
+Value='2208-06';Lungwa
+Value='2208-07';Magamba
+Value='2208-08';Mpito
+Value='2208-09';Mtunduru
+Value='2208-10';Nansama
+Value='2208-11';Nsenga
+Value='2208-12';Sambewe
+Value='2209-01';Hamwelo
+Value='2209-02';Insani
+Value='2209-03';Isela
+Value='2209-04';Itaka
+Value='2209-05';Itentula
+Value='2209-06';Itewe
+Value='2210-01';Idiwili
+Value='2210-02';Idunda
+Value='2210-03';Igale
+Value='2210-04';Ilomba
+Value='2210-05';Ipyana
+Value='2210-06';Iyula
+Value='2211-01';Lukululu
+Value='2211-02';Mbwewe
+Value='2211-03';Mlangali
+Value='2211-04';Ndolezi
+Value='2211-05';Shaji
+Value='2211-06';Shomola
+Value='2212-01';Ivwanga
+Value='2212-02';Mbimba
+Value='2212-03';Mlowo
+Value='2212-04';Nambala
+Value='2213-01';Ibembwa
+Value='2213-02';Iganduka
+Value='2213-03';Isalalo
+Value='2213-04';Malolo
+Value='2213-05';Msia
+Value='2213-06';Wasa
+Value='2213-07';Welu I
+Value='2214-01';Ichesa
+Value='2214-02';Igunda
+Value='2214-03';Ivugula
+Value='2214-04';Mahenje
+Value='2214-05';Mbulu
+Value='2214-06';Myovizi
+Value='2215-01';Ipapa
+Value='2215-02';Isenzanya
+Value='2215-03';Nambinzo
+Value='2215-04';Nkanga
+Value='2215-05';Shitunguru
+Value='2215-06';Utambalila
+Value='2216-01';Lusungo
+Value='2216-02';Namlonga
+Value='2216-03';Nanyala
+Value='2216-04';Senjele
+Value='2216-05';Songwe
+Value='2217-01';Hantesya
+Value='2217-02';Haraka
+Value='2217-03';Hezya
+Value='2217-04';Masangula
+Value='2217-05';Mpanda
+Value='2217-06';Msamba I
+Value='2217-07';Namwangwa
+Value='2217-08';Nyimbili
+Value='2218-01';Idibila
+Value='2218-02';Ihowa
+Value='2218-03';Lumbila
+Value='2218-04';Welu II
+Value='2219-01';Hasamba
+Value='2219-02';Ichenjezya
+Value='2219-03';Ilembo
+Value='2219-04';Ilolo
+Value='2219-05';Isangu
+Value='2219-06';Old Vwawa
+Value='2301-01';Igima
+Value='2301-02';Lulanzi
+Value='2301-03';Lusisi
+Value='2301-04';Mawindi
+Value='2301-05';Mhaji
+Value='2301-06';Mlevela
+Value='2301-07';Nyumbanitu
+Value='2302-01';Igosi
+Value='2302-02';Ivigo
+Value='2302-03';Ujindile
+Value='2303-01';Chalowe
+Value='2303-02';Dulamu
+Value='2303-03';Idindilimunyo
+Value='2303-04';Igwachanya
+Value='2303-05';Kanani
+Value='2303-06';Mtapa
+Value='2304-01';Igelehedza
+Value='2304-02';Igula
+Value='2304-03';Ilembula
+Value='2304-04';Iponda
+Value='2304-05';Kanamalenga
+Value='2305-01';Igodivaha
+Value='2305-02';Ilulu
+Value='2305-03';Imalinyi
+Value='2305-04';Kinenulo
+Value='2305-05';Masaulwa
+Value='2306-01';Isindagosi
+Value='2306-02';Itulahumba
+Value='2306-03';Sakalenga
+Value='2307-01';Gonelamafuta
+Value='2307-02';Kidugala
+Value='2307-03';Masage
+Value='2307-04';Masilu
+Value='2307-05';Mkeha
+Value='2308-01';Ikwavila
+Value='2308-02';Kijombe
+Value='2308-03';Lyadebwe
+Value='2308-04';Lyamuluki
+Value='2308-05';Ukomola
+Value='2309-01';Ing’enyango
+Value='2309-02';Kipengere
+Value='2309-03';Mafinga
+Value='2309-04';Mwilamba
+Value='2310-01';Hanjawanu
+Value='2310-02';Igando
+Value='2310-03';Iyayi
+Value='2310-04';Korintho
+Value='2310-05';Luduga
+Value='2310-06';Mambegu
+Value='2310-07';Mpanga
+Value='2311-01';Idunda
+Value='2311-02';Makoga
+Value='2311-03';Mdasi
+Value='2311-04';Ng’anda
+Value='2311-05';Samaria
+Value='2311-06';Uhekule
+Value='2311-07';Utelewe
+Value='2312-01';Malangali
+Value='2312-02';Wangamiko
+Value='2313-01';Ihanja
+Value='2313-02';Itambo
+Value='2313-03';Itowo
+Value='2313-04';Mdandu
+Value='2313-05';Mungate
+Value='2314-01';Idenyimembe
+Value='2314-02';Igenge
+Value='2314-03';Igomba
+Value='2314-04';Isimike
+Value='2314-05';Saja
+Value='2315-01';Banawanu
+Value='2315-02';Kasagala
+Value='2315-03';Mpululu
+Value='2315-04';Udonja
+Value='2315-05';Ujange
+Value='2316-01';Igelango
+Value='2316-02';Msimbazi
+Value='2316-03';Mtelewe
+Value='2316-04';Uhambule
+Value='2316-05';Ujindile
+Value='2316-06';Wangutwa
+Value='2317-01';Ikulimambo
+Value='2317-02';Itengelo
+Value='2317-03';Mapogoro
+Value='2317-04';Uhenga
+Value='2318-01';Igagala
+Value='2318-02';Ulembwe
+Value='2318-03';Usalule
+Value='2319-01';Ikwega
+Value='2319-02';Iteni
+Value='2319-03';Lugoda
+Value='2319-04';Matowo
+Value='2319-05';Usuka
+Value='2320-01';Itandula
+Value='2320-02';Katenge
+Value='2320-03';Litundu
+Value='2320-04';Mayale
+Value='2320-05';Mbembe
+Value='2320-06';Mng’elenge
+Value='2320-07';Ufwala
+Value='2320-08';Utiga
+Value='2321-01';Ikanga
+Value='2321-02';Imalilo
+Value='2321-03';Wangama
+Value='3101-01';Chagongwe
+Value='3101-02';Lufikiri
+Value='3101-03';Mkobwe
+Value='3102-01';Chakwale
+Value='3102-02';Kilimani
+Value='3102-03';Kimashale
+Value='3103-01';Chanjale
+Value='3103-02';Chingholwe
+Value='3103-03';Kumbulu
+Value='3103-04';Lukando
+Value='3103-05';Mamvisi
+Value='3104-01';Ibuti
+Value='3104-02';Ihenje
+Value='3104-03';Mogohigwa
+Value='3104-04';Ngiloli
+Value='3104-05';Tabuhotel
+Value='3105-01';Gairo
+Value='3106-01';Idibo
+Value='3106-02';Ng'holongo
+Value='3106-03';Nguyami
+Value='3107-01';Chihwaga
+Value='3107-02';Ijava
+Value='3107-03';Italagwe
+Value='3107-04';Kinyolisi
+Value='3107-05';Makuyu
+Value='3108-01';Chogoali
+Value='3108-02';Iyogwe
+Value='3108-03';Kilama
+Value='3109-01';Kibedya
+Value='3109-02';Letugunya
+Value='3109-03';Mnyunhe
+Value='3110-01';Kitaita
+Value='3110-02';Leshata
+Value='3110-03';Ngayaki
+Value='3110-04';Songambele
+Value='3111-01';Madege
+Value='3111-02';Magenge
+Value='3111-03';Ndogomi
+Value='3111-04';Sanganjeru
+Value='3112-01';Magoweko
+Value='3113-01';Ikwamba
+Value='3113-02';Njungwa
+Value='3114-01';Mkalama
+Value='3115-01';Msingisi
+Value='3116-01';Lukinga
+Value='3116-02';Mtega
+Value='3116-03';Nongwe
+Value='3117-01';Ikenge
+Value='3117-02';Kichangani
+Value='3117-03';Kisitwi
+Value='3117-04';Kwipipa
+Value='3117-05';Masenge
+Value='3117-06';Muheza
+Value='3117-07';Rubeho
+Value='3118-01';Ukwamani
+Value='3201-01';Biro
+Value='3201-02';Mbalinyi
+Value='3201-03';Ngombo
+Value='3202-01';Chirombola
+Value='3202-02';Mzelezi
+Value='3203-01';Ebuyu
+Value='3203-02';Euga
+Value='3204-01';Igawa
+Value='3204-02';Kiwale
+Value='3204-03';Lugala
+Value='3205-01';Chigandugandu
+Value='3205-02';Nanungu
+Value='3206-01';Iragua
+Value='3206-02';Kidugalo
+Value='3206-03';Magereza
+Value='3206-04';Namhanga
+Value='3207-01';Isaka
+Value='3207-02';Isongo
+Value='3208-01';Alabama
+Value='3208-02';Madabadaba
+Value='3208-03';Minazini
+Value='3209-01';Ikangao
+Value='3209-02';Ketaketa
+Value='3209-03';Luhombero
+Value='3210-01';Idunda
+Value='3210-02';Ikungua
+Value='3210-03';Kichangani
+Value='3211-01';Ihowanja
+Value='3211-02';Kilosa Kwa Mpepo
+Value='3212-01';Gombe
+Value='3212-02';Lukande
+Value='3213-01';Igota
+Value='3213-02';Lupiro
+Value='3213-03';Mbasa
+Value='3213-04';Nakafulu
+Value='3214-01';Mahenge
+Value='3214-02';Safari Road
+Value='3215-01';Kipingo
+Value='3215-02';Makerere
+Value='3215-03';Malinyi
+Value='3215-04';Mchangani
+Value='3215-05';Misegese
+Value='3216-01';Matumbala
+Value='3216-02';Mawasiliano
+Value='3217-01';Iputi
+Value='3217-02';Mbuga
+Value='3218-01';Igumbiro
+Value='3218-02';Milola
+Value='3219-01';Mavimba
+Value='3219-02';Minepa
+Value='3220-01';Chikuti
+Value='3220-02';Majengo
+Value='3220-03';Mdindo
+Value='3220-04';Msogezi
+Value='3221-01';Kipenyo
+Value='3221-02';Madibira
+Value='3221-03';Mtimbira
+Value='3221-04';Munga
+Value='3222-01';Chikwera
+Value='3222-02';Libenanga
+Value='3222-03';Mwaya
+Value='3222-04';Nkongo
+Value='3223-01';Epanko
+Value='3223-02';Kisewe
+Value='3223-03';Nawenge
+Value='3224-01';Lupunga
+Value='3224-02';Mabanda
+Value='3224-03';Ngoheranga
+Value='3224-04';Tanga
+Value='3225-01';Ipera Asili
+Value='3225-02';Njiwa
+Value='3225-03';Njiwa Juu
+Value='3226-01';Kituti
+Value='3226-02';Mgolo
+Value='3226-03';Mtukula
+Value='3226-04';Ruaha
+Value='3227-01';Isyaga
+Value='3227-02';Sali
+Value='3228-01';Kiswago
+Value='3228-02';Sofi Majiji
+Value='3228-03';Sofi Mission
+Value='3229-01';Lyandu
+Value='3229-02';Uponera
+Value='3230-01';Kalengakero
+Value='3230-02';Usangule "A"
+Value='3230-03';Usangule "B"
+Value='3231-01';Makanga
+Value='3231-02';Mbagula
+Value='3231-03';Namgezi
+Value='3231-04';Vigoi
+Value='3232-01';Kivukoni
+Value='3232-02';Mbuyuni
+Value='9999-99';Missing
+
+[Item]
+Label=Date of Entry
+Name=DOE
+Start=16
+Len=8
+ZeroFill=Yes
+
+[ValueSet]
+Label=Date of Entry
+Name=DOE_VS1
+Value=1:99999998
+Value=99999999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Sheet Number
+Name=SHEET
+Start=24
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=VST5 - DVM Mapping record
+Name=VST5_DVM_MAPPING_REC
+RecordTypeValue='1'
+RecordLen=120
+
+[Item]
+Label=Region Name
+Name=REGION_NAME
+Start=25
+Len=8
+DataType=Alpha
+
+[Item]
+Label=District Name
+Name=DISTRICT_NAME
+Start=33
+Len=11
+DataType=Alpha
+
+[Item]
+Label=Ward Name
+Name=WARD_NAME
+Start=44
+Len=20
+DataType=Alpha
+
+[Item]
+Label=Village Name
+Name=VILLAGE_NAME
+Start=64
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Field Officer in-charge (Name)
+Name=OFFICER_NAME
+Start=89
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Field Officer in-charge (Code)
+Name=OFFICER_CODE
+Start=119
+Len=2
+
+[Record]
+Label=DVM Identification
+Name=DVM_IDENTIFICATION
+RecordTypeValue='2'
+RecordLen=113
+
+[Item]
+Label=DVM First Name
+Name=DVM_FIRST_NAME
+Start=25
+Len=15
+DataType=Alpha
+
+[Item]
+Label=DVM Middle Name
+Name=DVM_MIDDLE_NAME
+Start=40
+Len=15
+DataType=Alpha
+
+[Item]
+Label=DVM Last Name
+Name=DVM_LAST_NAME
+Start=55
+Len=15
+DataType=Alpha
+
+[Item]
+Label=DVM sex
+Name=SEX
+Start=70
+Len=1
+
+[ValueSet]
+Label=DVM sex
+Name=SEX_VS1
+Value=1;Male
+Value=2;Female
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=DVM Age
+Name=AGE
+Start=71
+Len=1
+
+[ValueSet]
+Label=DVM Age
+Name=AGE_VS1
+Value=1;Less than 18 Years
+Value=2;18 - 34 Years
+Value=3;Above 34 years
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Mobile Number
+Name=MOBILE_NUMBER
+Start=72
+Len=10
+ZeroFill=Yes
+
+[Item]
+Label=GPS Latitude
+Name=GPS_LAT
+Start=82
+Len=13
+Decimal=9
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Longitude
+Name=GPS_LON
+Start=95
+Len=13
+Decimal=9
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Altitude
+Name=GPS_ALT
+Start=108
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=GPS Accuracy
+Name=GPS_ACC
+Start=112
+Len=2
+ZeroFill=Yes
+
+[Record]
+Label=Agricultural Information
+Name=AGRICULTURAL_INFORMATION
+RecordTypeValue='3'
+RecordLen=232
+
+[Item]
+Label=What is the total acreage of land (in Acres) is employed by the DVM  - Owned?
+Name=ACRE_OWNED
+Start=25
+Len=7
+Decimal=2
+
+[ValueSet]
+Label=What is the total acreage of land (in Acres) is employed by the DVM  - Owned?
+Name=ACRE_OWNED_VS1
+Value=0.00:998.00
+Value='999     ';Missing
+Name=MISSING,Special
+
+[Item]
+Label=What is the total acreage of land (in Acres) is employed by the DVM  - Rented Out?
+Name=ACRE_RENTED_OUT
+Start=32
+Len=7
+Decimal=2
+
+[ValueSet]
+Label=What is the total acreage of land (in Acres) is employed by the DVM  - Rented Out?
+Name=ACRE_RENTED_OUT_VS1
+Value=0.00:998.00
+Value='999     ';Missing
+Name=MISSING,Special
+
+[Item]
+Label=What is the total acreage of land (in Acres) is employed by the DVM  - Leased?
+Name=ACRE_LEASED
+Start=39
+Len=7
+Decimal=2
+
+[ValueSet]
+Label=What is the total acreage of land (in Acres) is employed by the DVM  - Leased?
+Name=ACRE_LEASED_VS1
+Value=0.00:998.00
+Value='999     ';Missing
+Name=MISSING,Special
+
+[Item]
+Label=What is the total acreage of land (in Acres) is employed by the DVM  - Active production
+Name=ACRE_PRODUCTION
+Start=46
+Len=7
+Decimal=2
+
+[ValueSet]
+Label=What is the total acreage of land (in Acres) is employed by the DVM  - Active production
+Name=ACRE_PRODUCTION_VS1
+Value=0.00:998.00
+Value='999     ';Missing
+Name=MISSING,Special
+
+[Item]
+Label=How many years of experience do you have growing sweet potato?
+Name=EXP_SP
+Start=53
+Len=2
+
+[ValueSet]
+Label=How many years of experience do you have growing sweet potato?
+Name=EXP_SP_VS1
+Value=0:80
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Category of farmer
+Name=FARMER_CAT
+Start=55
+Len=1
+
+[ValueSet]
+Label=Category of farmer
+Name=FARMER_CAT_VS1
+Value=1;Small Scale (0-5 Acres)
+Value=2;Medium Scale (6-9 Acres)
+Value=3;Large Scale (10 Acres and more)
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=What year did you start multiplying sweet potato as a DVM?
+Name=SP_MULT_YR
+Start=56
+Len=4
+
+[ValueSet]
+Label=What year did you start multiplying sweet potato as a DVM?
+Name=SP_MULT_YR_VS1
+Value=1980:2016
+Value=9999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=What month did you start multiplying sweet potato as a DVM?
+Name=SP_MULT_MON
+Start=60
+Len=2
+
+[ValueSet]
+Label=What month did you start multiplying sweet potato as a DVM?
+Name=SP_MULT_MON_VS1
+Value=1:12
+Value=99;Missing
+Name=MISSING,Special
+
+[Item]
+Label=What is the most profitable crop in your farm
+Name=PROFIT_CROP1
+Start=62
+Len=30
+DataType=Alpha
+
+[Item]
+Label=2nd most profitable crop
+Name=PROFIT_CROP2
+Start=92
+Len=30
+DataType=Alpha
+
+[Item]
+Label=3rd most profitable crop
+Name=PROFIT_CROP3
+Start=122
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Does the DVM produce/sell other types of seed/planting material besides sweet potato
+Name=OTHER_SEED
+Start=152
+Len=1
+
+[ValueSet]
+Label=Does the DVM produce/sell other types of seed/planting material besides sweet potato
+Name=OTHER_SEED_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Does the DVM produce/sell sweet potato roots
+Name=SP_ROOTS
+Start=153
+Len=1
+
+[ValueSet]
+Label=Does the DVM produce/sell sweet potato roots
+Name=SP_ROOTS_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Description of reliability of year round water
+Name=RAIN_RELIABILITY
+Start=154
+Len=1
+
+[ValueSet]
+Label=Description of reliability of year round water
+Name=RAIN_RELIABILITY_VS1
+Value=1;All year round
+Value=2;1/2 of the Year
+Value=3;1/4 of the Year
+Value=4;3/4 of the Year
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Does DVM own irrigation equipment
+Name=IRRIGATION
+Start=155
+Len=1
+
+[ValueSet]
+Label=Does DVM own irrigation equipment
+Name=IRRIGATION_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=If yes, what irrigation system does the DVM use
+Name=IRRIG_SYSTEM
+Start=156
+Len=6
+DataType=Alpha
+
+[ValueSet]
+Label=If yes, what irrigation system does the DVM use
+Name=IRRIG_SYSTEM_VS1
+Value='A     ';Furrow Irrigation
+Value='B     ';Basin Irrigation
+Value='C     ';Sprinkler Irrigation
+Value='D     ';Drip irrigation
+Value='E     ';Water pumps
+Value='F     ';Watering cans
+Value='G     ';Other
+
+[Item]
+Label=Other irrigation system
+Name=OTHER_IRRIG_SYSTEM
+Start=162
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Number of acres under irrigation
+Name=IRRIG_ACRES
+Start=192
+Len=3
+
+[ValueSet]
+Label=Number of acres under irrigation
+Name=IRRIG_ACRES_VS1
+Value=0:998
+Value=999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Describe the dominant soil type
+Name=DOMINANT_SOIL_TYPE
+Start=195
+Len=1
+
+[ValueSet]
+Label=Describe the dominant soil type
+Name=DOMINANT_SOIL_TYPE_VS1
+Value=1;Sandy
+Value=2;Silty
+Value=3;Clay
+Value=4;Peaty
+Value=5;Saline
+Value=6;Loam
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Assessment of quality of soil for sweet potato production
+Name=SOIL_QUALITY
+Start=196
+Len=1
+
+[ValueSet]
+Label=Assessment of quality of soil for sweet potato production
+Name=SOIL_QUALITY_VS1
+Value=1;Very Suitable
+Value=2;Suitable
+Value=3;Average
+Value=4;Not Suitable
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=DVM uses fertilizer on any crop last cropping year
+Name=FERTILIZER
+Start=197
+Len=1
+
+[ValueSet]
+Label=DVM uses fertilizer on any crop last cropping year
+Name=FERTILIZER_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=DVM has access to manure for use on crops
+Name=MANURE
+Start=198
+Len=1
+
+[ValueSet]
+Label=DVM has access to manure for use on crops
+Name=MANURE_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=DVM is an active member of a farmer's organization or group
+Name=FARMER_GROUP
+Start=199
+Len=1
+
+[ValueSet]
+Label=DVM is an active member of a farmer's organization or group
+Name=FARMER_GROUP_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=If yes, name of farmers organization
+Name=GROUP_NAME
+Start=200
+Len=30
+DataType=Alpha
+
+[Item]
+Label=DVM is active member of a religious organization
+Name=RELIGION
+Start=230
+Len=1
+
+[ValueSet]
+Label=DVM is active member of a religious organization
+Name=RELIGION_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=DVM is considered a leader in community
+Name=LEADER
+Start=231
+Len=1
+
+[ValueSet]
+Label=DVM is considered a leader in community
+Name=LEADER_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=DVM's spouse assists in sweet potato multiplication/production
+Name=SPOUSE
+Start=232
+Len=1
+
+[ValueSet]
+Label=DVM's spouse assists in sweet potato multiplication/production
+Name=SPOUSE_VS1
+Value=0;No
+Value=1;Yes
+Value=9;Missing
+Name=MISSING,Special
+
+[Record]
+Label=Crops
+Name=CROPS
+RecordTypeValue='4'
+MaxRecords=10
+RecordLen=54
+
+[Item]
+Label=What crops besides sweet potato do you grow?
+Name=CROP_NAME
+Start=25
+Len=30
+DataType=Alpha
+
+[Record]
+Label=Distance and training details
+Name=DISTANCE_AND_TRAINING_DETAILS
+RecordTypeValue='5'
+RecordLen=100
+
+[Item]
+Label=Distance (in minutes by walking) to major road from field
+Name=DISTANCE
+Start=25
+Len=3
+
+[ValueSet]
+Label=Distance (in minutes by walking) to major road from field
+Name=DISTANCE_VS1
+Value=1:998
+Value=999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Number of days trained as multiplier in 2015
+Name=TRAIN_2015
+Start=28
+Len=3
+
+[ValueSet]
+Label=Number of days trained as multiplier in 2015
+Name=TRAIN_2015_VS1
+Value=1:366
+Value=999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Number of days trained as multiplier in 2016
+Name=TRAIN_2016
+Start=31
+Len=3
+
+[ValueSet]
+Label=Number of days trained as multiplier in 2016
+Name=TRAIN_2016_VS1
+Value=0:366
+Value=999;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Principal extension agent backstopping the DVM
+Name=EXTENSION
+Start=34
+Len=1
+
+[ValueSet]
+Label=Principal extension agent backstopping the DVM
+Name=EXTENSION_VS1
+Value=1;VISTA Agronomists
+Value=2;Government Extension Officers
+Value=3;Other Extension Officers
+Value=4;Other
+Value=9;Missing
+Name=MISSING,Special
+
+[Item]
+Label=Other extension agent
+Name=OTHER_AGENT
+Start=35
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Support needed from project
+Name=SUPPORT
+Start=65
+Len=5
+DataType=Alpha
+
+[ValueSet]
+Label=Support needed from project
+Name=SUPPORT_VS1
+Value='A    ';Training
+Value='B    ';Free Vines
+Value='C    ';Farm Inputs
+Value='D    ';Financial Support
+Value='E    ';Other
+
+[Item]
+Label=Other Support
+Name=OTHER_SUPPORT
+Start=70
+Len=30
+DataType=Alpha
+
+[Item]
+Label=Photo
+Name=PHOTO
+Start=100
+Len=1
+
+[ValueSet]
+Label=Photo
+Name=PHOTO_VS_PHOTO_TAKEN
+Value=1;Retake photo
+Value=2;View photo
+Value=3;Keep photo
+Value=9;No photo (refused)
+
+[ValueSet]
+Label=Photo
+Name=PHOTO_VS_NO_PHOTO
+Value=1;Take photo
+Value=9;No photo (refused)

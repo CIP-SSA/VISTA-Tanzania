@@ -1,0 +1,43 @@
+﻿[Dictionary]
+Version=CSPro 6.2
+Label=DistrictsPerRegion
+Name=DISTRICTSPERREGION_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=DistrictsPerRegion questionnaire
+Name=DISTRICTSPERREGION_QUEST
+
+[IdItems]
+
+[Item]
+Label=Region Code
+Name=DPR_REGION_CODE
+Start=2
+Len=1
+ZeroFill=Yes
+
+[Record]
+Label=DistrictsPerRegion record
+Name=DISTRICTSPERREGION_REC
+RecordTypeValue='1'
+MaxRecords=999
+RecordLen=15
+
+[Item]
+Label=District Code
+Name=DPR_DISTRICT_CODE
+Start=3
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=District Name
+Name=DPR_DISTRICT_NAME
+Start=5
+Len=11
+DataType=Alpha

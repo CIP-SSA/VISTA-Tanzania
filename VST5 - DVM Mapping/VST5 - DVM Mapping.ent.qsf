@@ -1,0 +1,221 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 6.2
+
+[LANGUAGES]
+ENG=English
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.ACRE_LEASED
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24  What is the total acreage of land (in Acres) employed by the DVM (LEASED)?\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.ACRE_OWNED
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24  What is the total acreage of land (in Acres) employed by the DVM (OWNED)?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.ACRE_PRODUCTION
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24  What is the total acreage of land (in Acres) employed by the DVM (ACTIVE PRODUCTION)?\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.ACRE_RENTED_OUT
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24  What is the total acreage of land (in Acres) employed by the DVM (RENTED OUT)?\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.AGE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is %DVM_FIRST_NAME%'s age?\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.CROP_NAME
+Occurrences=1:10
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What crops besides sweetpotato do you grow? \par
+ENG=\par
+ENG=\cf2\i Crop number %currentLineNumber%\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.DISTANCE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Distance (in minutes by walking) to major road from field\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.DOE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the current date\par
+ENG=\pard\cf2\i0\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.DVM_FIRST_NAME
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the first name of the DVM?\cf2\i\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.DVM_LAST_NAME
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is %DVM_FIRST_NAME%'s last name?\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.DVM_MIDDLE_NAME
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is %DVM_FIRST_NAME%'s middle name?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.EXP_SP
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 How many years of experience do you have growing sweetpotato?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.EXTENSION
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Principal extension agent backstopping the DVM\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.FARMER_GROUP
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 DVM is an active member of a farmer's organization or group?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.FERTILIZER
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24  DVM uses fertilizer on any crop last cropping year\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.IRRIG_SYSTEM
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What irrigation system does the DVM use?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.MANURE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 DVM has access to manure for use on crops\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.MOBILE_NUMBER
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is %DVM_FIRST_NAME%'s mobile number?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.OTHER_SEED
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Does the DVM produce/sell other types of seed/planting material besides sweet potato?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.RELIGION
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 DVM is active member of a religious organization?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.SEX
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is %DVM_FIRST_NAME%'s sex?\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.SHEET
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the sheet number. Issue a new sheet number for every farmer group registered. \par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.SOIL_QUALITY
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24  Assessment of quality of soil for sweet potato production\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.SP_MULT_MON
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What month did you start multiplying sweetpotato as a DVM?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.SP_MULT_YR
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What year did you start multiplying sweetpotato as a DVM?\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.SP_ROOTS
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Does the DVM produce/sell sweet potato roots?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.SPOUSE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 DVM's spouse assists in sweet potato multiplication/production?\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.TRAIN_2015
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Number of days trained as multiplier in 2015\par
+ENG=}
+
+[QUESTION]
+Field=VST5_DVM_MAPPING_DICT.TRAIN_2016
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Number of days trained as multiplier in 2015\par
+ENG=}
+

@@ -1,0 +1,300 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 6.2
+
+[LANGUAGES]
+ENG=English
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.ACRE_OWNED
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Total acreage under production (Acres): Owned\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.ACRE_RENT
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Total acreage under production (Acres): Rented\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.ACRE_USE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Total acreage under production (Acres): Under Use\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.AGE_IN_YEARS
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 How old is %FIRST_NAME%?\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.CHAIRPERSON
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the name of the chairperson?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.CHAIRPERSON_MOBILE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the mobile number of %CHAIRPERSON%?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.CROP_NAME
+Occurrences=1:10
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24  Enter the top 5 crops produced by the group (%currentLineNumber%)\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.DATE_ESTABLISH
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 When was the group established? \par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.DAY_JOIN
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What day did %FIRST_NAME% join the group?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.DOE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the current date\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.FERTILIZERS
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Group applies use of fertilizers as a Good Agricultural Practices (GAP) Technologies\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.FINANCE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24  Do you have access to financial assistance through any institution?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.FINANCIAL_ASSISTANCE_1
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter full name of financial institution\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.FINANCIAL_ASSISTANCE_2
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter full name of financial institution\par
+ENG=\cf2\i0\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.FINANCIAL_ASSISTANCE_3
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter full name of financial institution\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.FINANCIAL_ASSISTANCE_4
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter full name of financial institution\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.FINANCIAL_ASSISTANCE_5
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter full name of financial institution\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.FIRST_NAME
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue64;\red0\green0\blue0;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the first name of the next member in the group. \par
+ENG=Enter blank if all group members have been entered.\par
+ENG=\cf2\i0\par
+ENG=\pard Group member number %currentLineNumber%.\cf3\i\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.GROUP_NAME
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the name of the group?\i\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.HERBICIDES
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Group applies use of herbicides as a Good Agricultural Practices (GAP) Technologies\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.IRRIGATION
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Group applies irrigation as a Good Agricultural Practices (GAP) Technologies\cf2\i0\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.MARITAL_STATUS
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is %FIRST_NAME%'s marital status?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.MOBILE_NUMBER
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is %FIRST_NAME%'s mobile number?\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.MONTH_JOIN
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What month did %FIRST_NAME% join the group?\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.OBJECTIVE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the main objective of the group?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.OTHER_GAP
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Other Good Agricultural Practices (GAP) Technologies\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.OTHER_GAP_DESCRIPTION
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Please describe the other practices \par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.PARTNERS
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Are there development partners / organisations working with or supporting the group?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.PESTICIDES
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Group applies use of pesticides as a Good Agricultural Practices (GAP) Technologies\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.SECRETARY
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the name of the secretary?\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.SECRETARY_MOBILE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the mobile number of %SECRETARY%?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.SHEET
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the sheet number. Issue a new sheet number for every farmer group registered. \par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.SURNAME
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the surname of %FIRST_NAME%?\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.WHICH_ONES_1
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter name of other crop\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.WHICH_ONES_2
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter name of other crop\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.WHICH_ONES_3
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter name of other crop\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.WHICH_ONES_4
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter name of other crop\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.WHICH_ONES_5
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter name of other crop\par
+ENG=}
+
+[QUESTION]
+Field=VST2_FARMER_GROUP_ASSESS_DICT.YEAR_JOIN
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What year did %FIRST_NAME% join the group?\par
+ENG=\pard\par
+ENG=}
+

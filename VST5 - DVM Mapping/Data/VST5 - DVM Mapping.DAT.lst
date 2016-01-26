@@ -1,0 +1,15 @@
+﻿Application     D:\DATA_MAIN\04 ME\VISTA-Tanzania\Database Management System\CSEntry\VST5 - DVM Mapping\VST5 - DVM Mapping.ent
+Type            ENTRY
+Input Data      D:\DATA_MAIN\04 ME\VISTA-Tanzania\Database Management System\CSEntry\VST5 - DVM Mapping\Data\VST5 - DVM Mapping.DAT
+External (DISTRICTSPERREGION_DICT): D:\DATA_MAIN\04 ME\VISTA-Tanzania\Database Management System\CSEntry\VST5 - DVM Mapping\Data\DistrictsPerRegion.DAT
+External (WARDSPERDISTRICT_DICT): D:\DATA_MAIN\04 ME\VISTA-Tanzania\Database Management System\CSEntry\VST5 - DVM Mapping\Data\WardsPerDistrict.DAT
+External (VILLAGESPERWARD_DICT): D:\DATA_MAIN\04 ME\VISTA-Tanzania\Database Management System\CSEntry\VST5 - DVM Mapping\Data\VillagesPerWard.DAT
+
+Date            Jan 12, 2016
+Start Time      20:39:20
+End Time        20:39:24
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------

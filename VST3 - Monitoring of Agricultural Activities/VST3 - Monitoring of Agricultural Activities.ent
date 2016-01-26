@@ -1,0 +1,29 @@
+﻿[CSPro Application]
+Version=CSPro 6.2
+Label=VST3_MONITORING_OF_AGRICULTURA
+Name=VST3_MONITORING_OF_AGRICULTURA
+AppType=DataEntry
+PartialSave=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CenterForms=Yes
+[External Dictionaries]
+File=.\DistrictsPerRegion.dcf
+File=.\WardsPerDistrict.dcf
+File=.\VillagesPerWard.dcf
+[AppCode]
+File=.\VST3 - Monitoring of Agricultural Activities.ent.apc
+[Message]
+File=.\VST3 - Monitoring of Agricultural Activities.ent.mgf
+[Help]
+File=.\VST3 - Monitoring of Agricultural Activities.ent.qsf
+[Forms]
+File=.\VST3 - Monitoring of Agricultural Activities.fmf
+[Dictionary Types]
+Dict-Type=.\VST3 - Monitoring of Agricultural Activities.dcf,Input,.\VST3 - Monitoring of Agricultural Activities.fmf
+Dict-Type=.\DistrictsPerRegion.dcf,External
+Dict-Type=.\WardsPerDistrict.dcf,External
+Dict-Type=.\VillagesPerWard.dcf,External

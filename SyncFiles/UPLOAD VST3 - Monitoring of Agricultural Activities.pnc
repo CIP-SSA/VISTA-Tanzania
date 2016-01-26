@@ -1,0 +1,12 @@
+[SyncFile]
+Version=CSPro 6.1
+
+[Server]
+Type=Dropbox
+
+[Sync]
+CreateServerPath=/VISTA_TZ/DATA_FILES/VST3/%DeviceID%
+ServerPath=/VISTA_TZ/DATA_FILES/VST3/%DeviceID%
+ClientPath=/VST3 - Monitoring of Agricultural Activities/Data
+Put=*.DAT
+Put=*.DAT.not

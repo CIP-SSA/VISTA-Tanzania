@@ -1,0 +1,118 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 6.2
+
+[LANGUAGES]
+ENG=English
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.AREA
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What area(M) of %FIRST_NAME%'s land is under OFSP production? \par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.DAY
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue64;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the day of visit e.g. 31\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.DOE
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the current date\par
+ENG=\cf2\i0\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.FIRST_NAME
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue64;\red0\green0\blue0;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the first name of the next farmer in the group. \par
+ENG=Enter blank if all farmers visited have been have been entered.\par
+ENG=\cf2\i0\par
+ENG=\pard Farmer number %currentLineNumber%.\cf3\i\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.MONTH
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue64;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the month of visit e.g. 12\par
+ENG=\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.OBSERVATION
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Select you observation of %FIRST_NAME%'s vine plot below? \par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.REMARK_THREE
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Advice given to %FIRST_NAME% (Three of three)\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.REMARK_TWO
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Advice given to %FIRST_NAME% (Two of three)\par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.REMARKS
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 Advice given to %FIRST_NAME%\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.SHEET
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the sheet number. Issue a new sheet number for every farmer group registered. \par
+ENG=\pard\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.SIGNATURE
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue0;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter 1 if farmer present during visit and 0 if farmer absent during visit. \par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.SURNAME
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green0\blue0;\red0\green128\blue64;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\fs24 What is the surname of %FIRST_NAME%?\cf2\i\par
+ENG=}
+
+[QUESTION]
+Field=VST3_MONITORING_OF_AGRIC_DICT.YEAR
+Occurrences=1:99
+ENG={\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+ENG={\colortbl ;\red0\green128\blue64;}
+ENG={\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\i\fs24 Enter the year of visit e.g. 2016\par
+ENG=\pard\par
+ENG=}
+

@@ -1,0 +1,29 @@
+﻿[CSPro Application]
+Version=CSPro 6.2
+Label=VST2_FARMER_GROUP_ASSESSMENT_A
+Name=VST2_FARMER_GROUP_ASSESSMENT_A
+AppType=DataEntry
+PartialSave=Yes
+CAPI=Yes
+CAPIFont1=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont2=-016 0000 0000 0000 0400 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+CAPIFont1Color=0
+CAPIFont2Color=16711680
+CenterForms=Yes
+[External Dictionaries]
+File=.\DistrictsPerRegion.dcf
+File=.\WardsPerDistrict.dcf
+File=.\VillagesPerWard.dcf
+[AppCode]
+File=.\VST2 - Farmer Group Assessment and Registration.ent.apc
+[Message]
+File=.\VST2 - Farmer Group Assessment and Registration.ent.mgf
+[Help]
+File=.\VST2 - Farmer Group Assessment and Registration.ent.qsf
+[Forms]
+File=.\VST2 - Farmer Group Assessment and Registration.fmf
+[Dictionary Types]
+Dict-Type=.\VST2 - Farmer Group Assessment and Registration.dcf,Input,.\VST2 - Farmer Group Assessment and Registration.fmf
+Dict-Type=.\DistrictsPerRegion.dcf,External
+Dict-Type=.\WardsPerDistrict.dcf,External
+Dict-Type=.\VillagesPerWard.dcf,External

@@ -1,0 +1,43 @@
+﻿[Dictionary]
+Version=CSPro 6.2
+Label=WardsPerDistrict
+Name=WARDSPERDISTRICT_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=WardsPerDistrict questionnaire
+Name=WARDSPERDISTRICT_QUEST
+
+[IdItems]
+
+[Item]
+Label=District Code
+Name=WPD_DISTRICT_CODE
+Start=2
+Len=2
+ZeroFill=Yes
+
+[Record]
+Label=WardsPerDistrict record
+Name=WARDSPERDISTRICT_REC
+RecordTypeValue='1'
+MaxRecords=999
+RecordLen=27
+
+[Item]
+Label=Ward Code
+Name=WPD_WARD_CODE
+Start=4
+Len=4
+ZeroFill=Yes
+
+[Item]
+Label=Ward Name
+Name=WPD_WARD_NAME
+Start=8
+Len=20
+DataType=Alpha

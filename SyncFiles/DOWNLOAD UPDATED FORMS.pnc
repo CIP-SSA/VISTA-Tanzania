@@ -1,0 +1,26 @@
+[SyncFile]
+Version=CSPro 6.1
+
+[Server]
+Type=Dropbox
+
+[Sync]
+ServerPath=/VISTA_TZ/APP_FILES
+
+ClientPath=/VST2 - Farmer Group Assessment and Registration
+Get=VST2 - Farmer Group Assessment and Registration.pen
+Get=VST2 - Farmer Group Assessment and Registration.pff
+ClientPath=/VST2 - Farmer Group Assessment and Registration/Data
+Get=*.DAT
+
+ClientPath=/VST3 - Monitoring of Agricultural Activities
+Get=VST3 - Monitoring of Agricultural Activities.pen
+Get=VST3 - Monitoring of Agricultural Activities.pff
+ClientPath=/VST3 - Monitoring of Agricultural Activities/Data
+Get=*.DAT
+
+ClientPath=/VST5 - DVM Mapping
+Get=VST5 - DVM Mapping.pen
+Get=VST5 - DVM Mapping.pff
+ClientPath=/VST5 - DVM Mapping/Data
+Get=*.DAT

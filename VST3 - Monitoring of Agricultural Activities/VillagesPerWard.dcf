@@ -1,0 +1,43 @@
+﻿[Dictionary]
+Version=CSPro 6.2
+Label=VillagesPerWard
+Name=VILLAGESPERWARD_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=VillagesPerWard questionnaire
+Name=VILLAGESPERWARD_QUEST
+
+[IdItems]
+
+[Item]
+Label=Ward Code
+Name=VPW_WARD_CODE
+Start=2
+Len=4
+ZeroFill=Yes
+
+[Record]
+Label=VillagesPerWard record
+Name=VILLAGESPERWARD_REC
+RecordTypeValue='1'
+MaxRecords=999
+RecordLen=37
+
+[Item]
+Label=Village Code
+Name=VPW_VILLAGE_CODE
+Start=6
+Len=7
+DataType=Alpha
+
+[Item]
+Label=Village Name
+Name=VPW_VILLAGE_NAME
+Start=13
+Len=25
+DataType=Alpha

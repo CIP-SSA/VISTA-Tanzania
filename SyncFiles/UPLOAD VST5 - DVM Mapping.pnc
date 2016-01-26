@@ -1,0 +1,17 @@
+[SyncFile]
+Version=CSPro 6.1
+
+[Server]
+Type=Dropbox
+
+[Sync]
+CreateServerPath=/VISTA_TZ/DATA_FILES/VST5/%DeviceID%
+ServerPath=/VISTA_TZ/DATA_FILES/VST5/%DeviceID%
+ClientPath=/VST5 - DVM Mapping/Data
+Put=*.DAT
+Put=*.DAT.not
+
+CreateServerPath=/VISTA_TZ/DATA_FILES/VST5/%DeviceID%/photos
+ServerPath=/VISTA_TZ/DATA_FILES/VST5/%DeviceID%/photos
+ClientPath=/VST5 - DVM Mapping/photos
+Put=*.jpg

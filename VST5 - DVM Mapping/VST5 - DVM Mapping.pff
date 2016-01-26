@@ -1,0 +1,18 @@
+﻿[Run Information]
+Version=CSPro 6.2
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\VST5 - DVM Mapping.ent
+InputData=.\Data\VST5 - DVM Mapping.DAT
+
+[ExternalFiles]
+VILLAGESPERWARD_DICT=.\Data\VillagesPerWard.DAT
+WARDSPERDISTRICT_DICT=.\Data\WardsPerDistrict.DAT
+DISTRICTSPERREGION_DICT=.\Data\DistrictsPerRegion.DAT
+
+[Parameters]
+

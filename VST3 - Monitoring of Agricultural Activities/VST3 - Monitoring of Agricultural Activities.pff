@@ -1,0 +1,18 @@
+﻿[Run Information]
+Version=CSPro 6.2
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\VST3 - Monitoring of Agricultural Activities.ent
+InputData=..\VST2 - Farmer Group Assessment and Registration\Data\VST2 - Farmer Group Assessment and Registration.DAT
+
+[ExternalFiles]
+DISTRICTSPERREGION_DICT=..\VST2 - Farmer Group Assessment and Registration\Data\DistrictsPerRegion.DAT
+WARDSPERDISTRICT_DICT=..\VST2 - Farmer Group Assessment and Registration\Data\WardsPerDistrict.DAT
+VILLAGESPERWARD_DICT=..\VST2 - Farmer Group Assessment and Registration\Data\VillagesPerWard.DAT
+
+[Parameters]
+
